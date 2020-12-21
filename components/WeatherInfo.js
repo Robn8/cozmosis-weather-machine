@@ -19,7 +19,6 @@ export default function WeatherInfo({currentWeather}) {
       <Text>{name}</Text>
       <Image style={styles.weatherIcon} source={{ uri: iconUrl }} />
       <Text style={styles.textPrimary}>{temp}°</Text>
-      <Text style={styles.textSecondary}>Feels like: {feels_like}°</Text>
       <Text style={styles.weatherDescription}>{description}</Text>
       <Text style={styles.textSecondary}>{main}</Text>
     </View>
