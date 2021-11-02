@@ -8,7 +8,7 @@ import ReloadIcon from './components/ReloadIcon'
 import WeatherDetails from './components/WeatherDetails'
 import { colors } from './utils/index'
 
-const WEATHER_API_KEY = '8759b992cc46910869262f8a79d6cc35'
+const WEATHER_API_KEY = ' // API Key goes here'
 
 const BASE_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather?'
 
